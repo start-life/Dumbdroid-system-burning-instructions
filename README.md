@@ -29,5 +29,5 @@ fastboot erase system
 fastboot flash super super
 ```
 > לאחר שלבים אלו הטלפון נדלק אבל נשאר על שלב אנמציית הלוגו כדי להצליח לשחזר באופן מלא עישתי את הצעדים הבאים 👇
-3. צריבת מחיצות אלו מקושחה גלובלית נקיה
->  
+3. צריבת מחיצות אלו מקושחה גלובלית נקיה עם SP Flash Tool   
+![אופס התמונה חסרה](image.png)
