@@ -5,7 +5,7 @@
 ## 2 צריבת הקושחה 
 1. הפעל מצב מפתחים והפעל מצב ניפוי שגיאות USB
 2. הרצת הפקודה `adb reboot fastboot` תעביר את המכשיר למצב reboot
-> הצריבה מתאפשרת רק עם Recovery מקורי ולא TWRP  
+> הצריבה מתאפשרת רק עם Recovery מקורי ולא TWRP תוכל להוריד ריקוברי מקורי עבור F21 PRO [כאן](https://github.com/start-life/Dumbdroid-system-burning-instructions/releases/download/1.0/boot_a.bin)  
 > שם לב שאתה במצב  fastboot ולא bootloader הפקודה `adb reboot bootloader` לא מתאימה לצריבת מחיצת system
 3. צרוב את הקושחה עם הפקודה `fastboot flash system ???.img`
 > לעיתים עלול להופיע שגיאה אם זה צורב למחיצת  system_b הצריבה צריכה להיות למחיצת system_a כדי לפתור את זה עבור על השלבים הבאים:
