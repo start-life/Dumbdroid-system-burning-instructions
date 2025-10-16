@@ -15,3 +15,19 @@
 כדי להחליף slot פעיל: `fastboot set_active a` או `fastboot set_active b`
 > 2. אם אתה מקבל שגיאות שמחיצת המערכת קטנה מדי או שלא ניתן לשנות את גודלה, נסה להבהב את גרסת dumbdroid ללא שרותי גוגל ולעבור ל-g-apps לאחר מכן דרך הגדרות->מערכת->עדכונים.
 4. הפעל את המכשיר מחדש `fastboot reboot` אתחול המערכת בפעם הראשונה עשוי להימשך 5-10 דקות
+## שיחזור הקושחה המקורית
+אני ניסיתי לשחזר במצב fastboot למרות שאפשר גם עם mtkclient כיוון שמכשיר שלי לא הצלחתי להתחבר לmtkclient   
+לאחר המון מאמצים הצלחתי לשחזר את הגרסה אלו השלבים שעשיתי יתכן שלא כולם נחוצים
+1. ניקוי מחיצות
+```
+fastboot erase userdata
+fastboot erase metadata
+fastboot erase system
+```
+2. צריבת מחיצת super מהגיבוי שלך
+```
+fastboot flash super super
+```
+> לאחר שלבים אלו הטלפון נדלק אבל נשאר על שלב אנמציית הלוגו כדי להצליח לשחזר באופן מלא עישתי את הצעדים הבאים 👇
+3. צריבת מחיצות אלו מקושחה גלובלית נקיה
+>  
