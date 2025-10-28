@@ -33,3 +33,5 @@ fastboot flash super super
 3. צריבת מחיצות אלו מקושחה גלובלית נקיה עם SP Flash Tool
       
 ![אופס התמונה חסרה](image.png)
+
+> היי 🎉 יצרתי קובץ super של הגרסה הזו כעת תוכל לצרוב את זה בקלות עם SP Flash Tool כרגע זה עבור qin f22 pro עבור **גרסת ונילה** הורד [כאן](https://github.com/start-life/Dumbdroid-system-burning-instructions/releases/download/1.0/qin.f22.pro.lineage-21.0-20251014-UNOFFICIAL-dumb_vanilla31_Not.Google.rar) **גרסת גוגל** בקרוב
